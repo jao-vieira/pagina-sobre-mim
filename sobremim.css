@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Epunda Slab", serif;
+}
+
+body {
+    background-color: #9c9c9c;
+}
+
+header {
+    border: 2px solid #191919;
+    border-radius: 5px;
+    margin: 0.2rem;
+    background-color: #d3d3d3;
+}
+
+
+main {
+    border:2px solid #191919;
+    border-radius: 5px;
+    margin: 0.2rem;
+    margin-bottom: -15px;
+    display: flex;
+    background: #d3d3d3;
+}
+
+
+h1{
+    padding: 0.1rem;
+    margin-left: 0.1rem;
+}
+
+a {
+    color:#191919;
+    padding: 0.1rem;
+
+}
+
+.minha-foto{
+    flex: 1;
+    width: 350px;
+    height: auto;
+    padding: 0.1rem;
+    padding-top: 0.4rem;
+    border-radius: 10px;
+}
+
+
+.cabecalho{
+    padding:0.1rem;
+    margin-left: 0.1rem;
+}
+
+.rede-social{
+    flex-direction: row;
+    padding:0.3rem;
+}
+
+.logos {
+    width: 25px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.descrição {
+    flex: 2;
+    align-items: center;
+    padding: 0.2rem;
+}
+
+.sobre-mim {
+    padding: 0.5rem;
+}
+
+@media screen and (max-width: 600px) {
+
+    header{
+        text-align: center;
+    }
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .minha-foto {
+        width: 100%;
+        height: auto;
+    }
+
+    h1,h2 {
+        font-size: 2em;
+    }
+    
+    .descrição {
+        padding: 10px;
+    }
+}

@@ -1,1 +1,2 @@
-Uma Página sobra mim, quem sou, oque gostp, e oque almejo.
+Essa é a segunda versão da minha pagina, aqui você irá encontrar as mais diversas informações sobre mim.
+Foi algo que fiz com um pouco de tempo que estou nesse mundo da programação, algo básico, mas que me dediquei bastante para fazer o melhor uso. caso goste do design, ou tenha alguma sugestão, estará sempre disponível.
